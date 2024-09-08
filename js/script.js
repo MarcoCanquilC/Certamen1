@@ -82,7 +82,7 @@ document.getElementById('boton_enviar').addEventListener("click", () => {
 
     // Mostrar errores si existen
     if (errores.length > 0) {
-        texo_error.style.display = 'block';
+        texto_error.style.display = 'block';
         texto_error.innerHTML = errores.join('<br>'); // Mostrar errores separados por línea
 
     } else {
